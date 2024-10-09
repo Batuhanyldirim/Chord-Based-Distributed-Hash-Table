@@ -34,7 +34,7 @@ To install Erlang, visit the [official Erlang website](https://www.erlang.org/do
 git clone https://github.com/yourusername/chordy.git
 cd chordy
 ````
-###Compile the Modules
+### Compile the Modules
 Make sure you compile the Erlang files before testing:
 
 ```bash
@@ -43,8 +43,8 @@ erlc node2.erl
 erlc node3.erl
 erlc node4.erl
 ```
-##Usage
-###Manual Testing
+## Usage
+### Manual Testing
 You can manually test the system using the commands below. First, create a node and start adding keys to the system.
 ```bash
 1> Pid1 = test:start(node2).
